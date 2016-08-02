@@ -7,7 +7,7 @@ services:
 
 before_install:
   - docker info
-  - docker build -t tomcat -f tomcat8/Dockerfile.jre8 tomcat8/
+  - docker build Dockerfile tomcat8/
   - curl -o sample.war https://tomcat.apache.org/tomcat-8.0-doc/appdev/sample/sample.war
 
 script:
