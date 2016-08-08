@@ -23,5 +23,3 @@ COPY logging.properties ${TOMCAT_HOME}/conf/logging.properties
 COPY server.xml ${TOMCAT_HOME}/conf/server.xml
 
 VOLUME ["/logs"]
-
-EXPOSE 80 443
