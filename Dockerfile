@@ -24,5 +24,4 @@ COPY server.xml ${TOMCAT_HOME}/conf/server.xml
 
 VOLUME ["/logs"]
 
-ENV TOMCAT_PORT 8080
-EXPOSE ${TOMCAT_PORT}
+EXPOSE 80 443
